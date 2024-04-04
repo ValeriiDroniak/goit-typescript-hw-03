@@ -29,7 +29,6 @@ abstract class House  {
 
 	constructor(key: Key) {
 		this.key = key;
-		// this.comeIn(new Person(key));
 	}
 
 	public comeIn(person: Person): void {
@@ -69,4 +68,4 @@ house.openDoor(person.getKey());
 house.comeIn(person);
 
 
-export {};
+export { };
